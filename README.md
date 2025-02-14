@@ -16,3 +16,23 @@ L’architettura del sistema è composta dai seguenti elementi:
 3. **Archiviazione in MongoDB**: memorizza le previsioni generate dal modello per analisi e consultazioni future;
 4. **Dashboard in React**: offre un’interfaccia intuitiva per la visualizzazione interattiva delle previsioni.
 
+## Dashboard  
+
+Questo repository contiene il codice *React* della dashboard, progettata per visualizzare dati in tempo reale e previsioni di produzione solare attraverso un’interfaccia pulita e modulare.  
+
+#### Struttura della Dashboard  
+
+- **Dati in tempo reale**: mostra la produzione attuale dell’impianto e la temperatura ambientale.
+- **Previsioni di produzione solare**:
+  - Griglia dinamica interattiva con previsioni *giornaliere*, *orarie* e a *intervalli di 15 minuti*; 
+  -  **Grafico a linee** per andamento della produzione solare prevista;
+  -  **Grafico a barre** che evidenzia le variazioni delle temperature massime e minime previste;
+  -  **Grafico a torta** che rappresenta la distribuzione percentuale della produzione nei vari intervalli temporali.
+
+- **Revisione delle prestazioni**: confronto tra dati pianificati ed effettivi  
+
+- **Valutazione del modello**: informazioni tecniche sull’accuratezza e le prestazioni del modello predittivo. 
+
+La dashboard si aggiorna automaticamente **ogni 5 minuti**, generando nuove previsioni e aggiornando i dati per garantire informazioni sempre aggiornate e affidabili.  
+
+## Il backend del sistema è disponibile nel seguente repository: [wot-SolarProductionForecast-Backend-BelcuoreErroi](https://github.com/GErroi/wot-SolarProductionForecast-Backend-BelcuoreErroi)
