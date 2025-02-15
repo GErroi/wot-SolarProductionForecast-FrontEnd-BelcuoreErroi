@@ -11,10 +11,12 @@ Le previsioni sono presentate in modo chiaro e intuitivo attraverso una dashboar
 
 L’architettura del sistema è composta dai seguenti elementi:
 
-1. **Raccolta dati**: alcune API acquisiscono i dati metereologici da *open-meteo.com* e i dati storici della produzione dell'impianto fotovoltaico;
+1. **Raccolta dati**: API a disposizione del backend/frontend per l'acquisizione di dati metereologici da open-meteo.com e di dati storici della produzione dell'impianto fotovoltaico;
 2. **Backend in Python**: pre-elabora i dati e genera previsioni tramite un modello ensemble basato su *SVR*, *Random Forest*, *Ridge Regression* e *Kernel Ridge Regression*;
 3. **Archiviazione in MongoDB**: memorizza le previsioni generate dal modello per analisi e consultazioni future;
 4. **Dashboard in React**: offre un’interfaccia intuitiva per la visualizzazione interattiva delle previsioni.
+
+![Architettura](proposta.png)
 
 ## Dashboard  
 
