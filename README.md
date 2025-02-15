@@ -38,3 +38,4 @@ Questo repository contiene il codice *React* della dashboard, progettata per vis
 La dashboard si aggiorna automaticamente **ogni 5 minuti**, generando nuove previsioni e aggiornando i dati per garantire informazioni sempre aggiornate e affidabili.  
 
 ## Il backend del sistema è disponibile nel seguente repository: [wot-SolarProductionForecast-Backend-BelcuoreErroi](https://github.com/GErroi/wot-SolarProductionForecast-Backend-BelcuoreErroi)
+## La presentazione del sistema è disponibile nel seguente repository: [wot-SolarProductionForecast-Presentation-BelcuoreErroi](https://github.com/GErroi/wot-SolarProductionForecast-Presentation-BelcuoreErroi)
